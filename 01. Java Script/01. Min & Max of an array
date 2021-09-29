@@ -1,0 +1,18 @@
+let arr = [2,5,3,7,6,9,16,15];
+function find(arr){
+let min = Number.MAX_VALUE;
+let max = Number.MIN_VALUE;
+
+for(let i=0 ; i < arr.length ; i++){
+    if(arr[i] > max){
+        max = arr[i];
+    }
+    if(arr[i] < min){
+        min = arr[i];
+    }
+}
+console.log(max, " is the max value in this array");
+console.log(min, " is the min value in this array");
+}
+find(arr);
+
