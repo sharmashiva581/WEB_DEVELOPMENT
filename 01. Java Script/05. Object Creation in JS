@@ -33,3 +33,17 @@ console.log(tony['address']);
 console.log(tony['address']['city']);
 console.log(tony['isAvenger']);
 console.log(tony['saysHi']());
+
+// to get all keys of an  object in an array -> 1st way
+let keysArr = Object.keys(tony);      // tony = object name
+//console.log(keysArr);               // this will print all keys only
+for(let i=0 ; i < keysArr.length ; i++){
+    console.log(tony[keysArr[i]]);         // this wil print all key values
+}
+
+
+ // to get all keys of an  object in an array -> 2nd way using a "let key in loop"
+for(let key in tony){                    // tony = object name
+    //console.log(key);                    // this will print all keys only
+    //console.log(tony[key]);                    // this wil print all key values
+}
