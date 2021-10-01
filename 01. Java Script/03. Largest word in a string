@@ -1,0 +1,11 @@
+let str = " I am a superman of this universee";
+let strArr = str.split(' ');
+
+let biggest = 0;
+
+for(let i=0 ; i < strArr.length; i++){
+    if(strArr[i].length > biggest){
+        biggest = strArr[i].length;
+    }
+}
+console.log(biggest);
