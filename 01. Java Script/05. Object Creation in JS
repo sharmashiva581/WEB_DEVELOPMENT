@@ -31,3 +31,4 @@ console.log(tony['friends'][1]);
 console.log(tony['address']);
 console.log(tony['address']['city']);
 console.log(tony['isAvenger']);
+console.log(tony['saysHi']());
