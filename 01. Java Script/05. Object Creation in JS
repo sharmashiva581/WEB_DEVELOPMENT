@@ -28,6 +28,7 @@ console.log(tony.saysHi()); // function call
 // 2. way -> when we have to access a key  dynamically in an object and the input we have is an user input and that will be of string type
 console.log(tony['name']);
 console.log(tony['friends'][1]);
+console.log(tony['friends'].slice(1));
 console.log(tony['address']);
 console.log(tony['address']['city']);
 console.log(tony['isAvenger']);
