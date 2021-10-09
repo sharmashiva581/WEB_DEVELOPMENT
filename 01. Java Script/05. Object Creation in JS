@@ -1,0 +1,49 @@
+let tony = { // tony -> object name
+name: "Tony",
+lastname: "stark",
+friends: ["hena", " rekha","jaya","or sushma"],
+age: 45,
+isAvenger: true,
+address:{ // new object inside an object
+city: "New Delhi",
+country:"India"
+},
+saysHi:function fn(){ // function inside an object
+    console.log('Iron man say hello');
+    return 'part of the journey ends here';
+},
+}
+
+//console.log(tony);
+// 2 ways to access object values directly -> we invoke the object using the 'KEY' always
+// 1. way
+console.log(tony.lastname);
+console.log(tony.name);
+console.log(tony.friends);
+console.log(tony.friends[1]);
+console.log(tony.address);
+console.log(tony.address.city);
+console.log(tony.saysHi()); // function call
+
+// 2. way -> when we have to access a key  dynamically in an object and the input we have is an user input and that will be of string type
+console.log(tony['name']);
+console.log(tony['friends'][1]);
+console.log(tony['friends'].slice(1));
+console.log(tony['address']);
+console.log(tony['address']['city']);
+console.log(tony['isAvenger']);
+console.log(tony['saysHi']());
+
+// to get all keys of an  object in an array -> 1st way
+let keysArr = Object.keys(tony);      // tony = object name
+//console.log(keysArr);               // this will print all keys only
+for(let i=0 ; i < keysArr.length ; i++){
+    console.log(tony[keysArr[i]]);         // this wil print all key values
+}
+
+
+ // to get all keys of an  object in an array -> 2nd way using a "let key in loop"
+for(let key in tony){                    // tony = object name
+    //console.log(key);                    // this will print all keys only
+    //console.log(tony[key]);                    // this wil print all key values
+}

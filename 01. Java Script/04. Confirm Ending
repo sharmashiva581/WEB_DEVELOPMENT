@@ -1,0 +1,30 @@
+let str = " I am a superman of this universee";
+function confirmEnding(str , target){
+let arr = str.split(' ');
+
+let targetString = arr[arr.length-1];
+let tar = targetString.slice(-target.length);
+
+if(tar == target){
+    console.log("True");
+}
+else{
+    console.log("False");
+}
+}
+confirmEnding(str , "ee")
+
+***************************************** OR USING endsWith() function  *****************************************
+let str = " I am a superman of this universee";
+function confirmEnding(str , target){
+
+if(str.endsWith(target)){
+    console.log("True");
+}
+else{
+    console.log("False");
+}
+
+
+}
+confirmEnding(str , "ee")

@@ -1,0 +1,25 @@
+let arr = [2,5,8,9,4,5,6];
+
+// 1. PUSH -> Add element to the end of an array
+let pel = arr.push(15,7); // pel = push element
+//console.log(arr);
+
+// 2. POP() -> remove and give last added element from the end of an array
+let pop_el = arr.pop(); // pop_el = poped element
+//console.log(pop_el);
+
+// 3. UNSHIFT() -> Adds element to the start of the array
+let add_ele = arr.unshift(0 , 1);
+//console.log(arr);
+
+// 4. SHIFT() -> remove element from the start of the array
+let rem_ele = arr.shift();
+//console.log(rem_ele);
+//console.log(arr);
+
+// 5. SPLICE() -> method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
+let spl_ele = arr.splice(3 , 0 , 19,23); // Remove 0 (zero) elements before index 3, and insert 19 and 23 after index 3 in the array
+//console.log(arr); // spl_ele = splice element
+
+let removed = arr.splice(3 , 3); // Remove 1 element at index 3 ->(start index , delete count)
+console.log(arr);
