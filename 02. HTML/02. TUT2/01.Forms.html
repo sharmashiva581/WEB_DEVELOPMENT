@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>This is the HTML forms tutorial</h2>
+    <form action=" backend.php">
+        <label for="name">Name</label>
+        <div>
+             <input type="text" name="myNmae" id = "name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+             <input type="text" name="myRole" id = "role">
+        </div>
+        <br>
+        <div>
+             Email:<input type="email" name="myEmail" >
+        </div>
+        <br>
+        <br>
+        <div>
+            Select D.O.B: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myNumber">
+        </div>
+        <br>
+        <div>
+            Gender : Male  <input type="radio" name="MyGender">
+            Female <input type="radio" name="MyGender" >
+            Other <input type="radio" name="MyGender" >
+        </div>
+        <br>
+        <div>
+            Are you Eligible? : <input type="checkbox" name="MyEligibility" >
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br> <textarea name="myText"  cols="85" rows="15"></textarea>
+        </div>
+        <br>
+        <div>
+            <!-- Label Tag -->
+            <label for="car">Select Car</label>
+            <select name="MyCar" id="car">
+                <option value="Toyota">Fortuner</option>
+                <option value="Ford" selected>Endevour</option>
+            </select>
+          
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <br>
+        <div>
+            Resume : <input type="file" name="myResume"> <br>
+            Image : <input type="image" src="img_submit.gif" alt="submit" width="44" height="56">
+
+        </div>
+    </form>
+</body>
+</html>
