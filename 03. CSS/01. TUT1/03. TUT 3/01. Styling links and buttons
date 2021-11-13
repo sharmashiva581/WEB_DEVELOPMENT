@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling links and buttons</title>
+   <style>
+       .container{
+           background-color: rgb(181, 245, 224);
+       border: 3px solid rgb(140, 51, 243);
+       padding: 34px;
+       margin: 34px auto;
+       width: 666px;
+       }
+       a{
+         text-decoration: none;
+         
+       }
+       a:hover{
+        
+         background-color: rgb(102, 29, 185);
+       }
+       a:visited{
+        color: blueviolet;
+       }
+
+       .btn{
+         border: none;
+         padding: 6px;
+         margin: 3px;
+         cursor: pointer;
+         background-color: rgb(226, 136, 248);
+       }
+       .btn:hover{
+         color: brown;
+         background-color: rgb(125, 20, 211);
+       }
+   </style>
+</head>
+<body>
+  <div class="container" id="cont1">
+    <h3>In this tutorial we will learn pseudo selectors and more designing</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quidem veniam deserunt? Corrupti similique consequatur repellendus unde tempora voluptatum molestiae? Laborum necessitatibus dolores ratione molestias delectus fugit recusandae ea eos?</p>
+    <a href="https://www.sarkariresult.com/ "class= "btn">sarkariresult</a>
+    <button class="btn">Contact us</button>
+  </div>
+</body>
+</html>
