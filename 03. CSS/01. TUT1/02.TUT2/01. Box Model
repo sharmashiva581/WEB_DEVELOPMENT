@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+   
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
+   
+    <style>
+        /* This is inline CSS */
+        *{
+            box-sizing: border-box;
+        }
+       
+        body{
+            background-color: rgb(181, 128, 230);
+            font-family: 'Yuji Mai', serif;
+
+        }
+        .container{
+            background-color: rgb(208 247 237);
+            border: 2px solid black;
+             border-radius: 10px;
+            padding: 30px;
+            width: 30%;
+            margin: 44px;
+           
+            
+           
+            clear: both;
+           
+        }
+       #first{
+       
+        color: rgb(194, 56, 56);
+       }
+       .container1{
+        background-color: rgb(208 247 237);
+            border: 2px solid black;
+             border-radius: 10px;
+            padding: 30px;
+            width: 297px;
+            margin: 34px;
+            margin: auto;
+           
+        float: left;
+       }
+       p, h3{
+           background-color: rgb(245, 248, 196);
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <H3>This is CSS Tutorial</H3>
+        <p id = "first">This tutorial will teach you <span>everything</span>  you need to know about HTML/CSS</p>
+    </div>
+    <div class="container">
+        <H3>This is CSS Tutorial</H3>
+        <p id = "second">This tutorial will teach you <span>everything</span>  you need to know about HTML/CSS</p>
+    </div>
+    <div class="container">
+        <H3>This is CSS Tutorial</H3>
+        <p id = "third">This tutorial will teach you <span>everything</span>  you need to know about HTML/CSS</p>
+    </div>
+   
+</body>
+</html>
