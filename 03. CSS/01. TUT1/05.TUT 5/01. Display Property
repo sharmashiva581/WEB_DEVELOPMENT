@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Property</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    header{
+      border: 2px solid red;
+      margin: auto;
+      width: 33%;
+      background-color: rgb(185, 169, 18);
+    }
+   img{
+     width: 120px;
+     margin: auto;
+     display: block;
+     
+   }
+   h3{
+     text-align: center;
+   }
+   .box{
+     padding: 23px;
+     margin: 4px 0px;
+     border: 4px solid black;
+     background-color: rgb(140, 247, 126);
+     display: block;
+     width: 33%;
+     box-sizing: border-box;
+     display: inline-block;
+     
+   }
+   .container{
+     margin: auto;
+     width: 1200px;
+   }
+  </style>
+</head>
+<body>
+  <header class="display">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_f-3Npwnj40B6u8O8WmcX8swxRqUS8ncQg&usqp=CAU" alt="">
+    <h3>Welcome to shiva's vlog</h3>
+  </header>
+  <div class="container">
+    <div class="box">
+      <h4 class="Heading"></h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ab iure alias aut, animi, eos rerum voluptatum fugit autem aperiam enim, nobis excepturi reprehenderit doloribus inventore minima officia mollitia voluptas ratione quasi vitae ea!</p>
+    </div>
+    <div class="box">
+      <h4 class="Heading"></h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ab iure alias aut, animi, eos rerum voluptatum fugit autem aperiam enim, nobis excepturi reprehenderit doloribus inventore minima officia mollitia voluptas ratione quasi vitae ea!</p>
+    </div>
+    <div class="box">
+      <h4 class="Heading"></h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ab iure alias aut, animi, eos rerum voluptatum fugit autem aperiam enim, nobis excepturi reprehenderit doloribus inventore minima officia mollitia voluptas ratione quasi vitae ea!</p>
+    </div>
+  </div>
+</body>
+</html>
